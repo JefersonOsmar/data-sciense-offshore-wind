@@ -1,5 +1,3 @@
-# data-sciense-offshore-wind
-
 # Data Science for Offshore Wind Energy
 
 This repository contains interactive machine learning workflows designed for the analysis, technological classification, and techno-economic assessment of offshore wind energy systems. Utilizing spatial, physical, and economic data, the project implements robust data preprocessing, feature scaling, hyperparameter tuning, and cross-validation within Jupyter Notebooks to solve both classification and regression tasks.
