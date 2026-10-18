@@ -21,7 +21,6 @@ To build a robust comparative framework, multiple paradigms of Machine Learning 
 *   **Decision Tree Classifier:** Supervised tree structures mapping regional geotechnical boundaries.
 *   **Random Forest Classifier:** Ensemble technique using bagging to achieve high generalization capability.
 *   **Logistic Regression & MLP Classifier (Neural Networks):** Linear baselines and multi-layer perceptrons for complex boundary mapping.
-*   **Robustness:** Evaluated using `StratifiedKFold` Cross-Validation to safely manage any inherent target variable imbalances.
 
 ### 🔸 2. Regression Notebook (LCOE Estimation)
 *   **Polynomial Regression with Regularization:** Combines feature interaction mapping (`PolynomialFeatures`) with `ElasticNet` (Ridge/Lasso balance) to mitigate overfitting.
@@ -33,7 +32,6 @@ To build a robust comparative framework, multiple paradigms of Machine Learning 
 *   **M1: ARMA(2,0,2):** Classical linear autoregressive moving-average baseline modeled on the seasonally differenced wind series.
 *   **M2: ARIMA(2,1,2):** Classical integrated time-series framework evaluating dynamic trend components.
 *   **M3: Deep LSTM (Recurrent Neural Network):** High-capacity deep learning model structured with stacked LSTM layers (64 units, `tanh` activation), `Dropout(0.2)` regularizers to prevent overfitting, and an optimized `Dense` layer framework.
-*   **Optimization & Diagnostics:** Controlled via an automated `EarlyStopping` callback tracking `val_loss` with a patience threshold of 15 epochs. Evaluated on an actual scale (\(m/s\)) using reverted seasonal differencing.
 
 ---
 
