@@ -29,8 +29,9 @@ The classification and regression frameworks utilize the **United States Offshor
 
 ### 🔹 2. ERA5 Atmospheric Reanalysis (Task 3)
 The time-series forecasting pipeline utilizes historical climate data extracted from the **ERA5 Reanalysis** dataset, produced by the European Centre for Medium-Range Weather Forecasts (ECMWF).
-* **Scope:** Long-term hourly and monthly aggregated wind speed time-series (extracted at specific offshore hub-height coordinate nodes over a 30-year horizon).
-* **Application:** Provides the physical backbone for temporal variance analysis, seasonal trend decomposition, and deep learning sequential inputs.
+* **Scope:** 30-year historical hourly and monthly aggregated wind speed time-series data.
+* **Geographic Focus:** Extracted over the **Campos Basin (Bacia de Campos), Brazil**, an offshore oil and gas exploration region
+* **Application:** Provides temporal variance analysis, seasonal trend decomposition, and deep learning sequential inputs to assess wind power potential in an active offshore energy hub.
 
 ---
 
